@@ -1,0 +1,106 @@
+/* body */
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "poppins", sans-serif;
+  color: #222;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0.8rem;
+  border-bottom: rgba(255, 153, 0) solid 5px;
+  height: 5em;
+}
+
+.navbar-brand {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* color: #e600e6 !important ; */
+  font-size: 25px;
+  margin: 15px;
+  margin-top: 25px;
+  color: #222;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.navbar-brand span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 153, 0);
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  /* font-size: 1.1em !important; */
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: rgb(255, 153, 0);
+}
+
+/* carousel image slider */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  background-size: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+  /* font-size: 100px; */
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+  /* font-size: 70px; */
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+}
+
+#history {
+  background-color: #fefef5;
+}
+
+.historyArea {
+  background-color: pink;
+  height: 350px;
+  margin-right: -50px;
+  padding: 30px;
+}
+.historyArea h3 {
+  font-size: 70px;
+  color: #580258;
+  font-weight: bolder;
+}
+.historyArea p {
+  font-size: 20px;
+  color: gray;
+  /* font-weight: 100; */
+}
+.historyImage {
+  margin-top: 90px;
+  margin-left: -5px;
+  margin-top: 80px;
+  z-index: 50px;
+  width: 500px;
+  position: relative;
+}
+
+#footer {
+  background: #111;
+}
